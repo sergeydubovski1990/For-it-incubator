@@ -4,3 +4,7 @@ function numberToString(num) {
   function numberToString(num) {
     return num.toString();
   }
+
+  function DNAtoRNA(dna){
+    return dna.replace(/T/g, 'U');
+  }
