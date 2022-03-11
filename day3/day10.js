@@ -8,3 +8,10 @@ function numberToString(num) {
   function DNAtoRNA(dna){
     return dna.replace(/T/g, 'U');
   }
+
+  function paperwork(n, m) {
+  
+}
+function paperwork(n, m) {
+  return n > 0 && m > 0 ? n * m : 0
+}
