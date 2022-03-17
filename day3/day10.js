@@ -15,3 +15,5 @@ function numberToString(num) {
 function paperwork(n, m) {
   return n > 0 && m > 0 ? n * m : 0
 }
+const opposite = number => -number 
+  
